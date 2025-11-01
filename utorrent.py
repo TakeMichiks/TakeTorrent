@@ -4,7 +4,7 @@ import sys
 import os
 from plyer import notification
 
-# --- Definición de la ruta de descarga (CORRECTO) ---
+# --- Definición de la ruta de descarga  ---
 if getattr(sys, 'frozen', False):
     # Si es un .exe, la base es el directorio donde está el .exe
     BASE_DIR = os.path.dirname(sys.executable)
@@ -110,3 +110,4 @@ while True:
     if repetir != 's':
         print("Programa finalizado.")
         break
+
